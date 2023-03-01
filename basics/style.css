@@ -1,0 +1,26 @@
+/*This changes every h3 in the html*/
+h1  {
+    color: blue;
+}
+
+/*This is how you access classes*/
+.second-title{
+    color: red; 
+}
+/*This is how you access */
+#github-link{
+    color: greenyellow;
+}
+
+/*These can also be combined with classes and ids*/
+.my-list + ul{
+    list-style: none;
+}
+
+/*This only changes list under ul parent*/
+ul > li {
+    color: fuchsia;    
+}
+
+.links li :nth-child(3) {
+    color: rgb(62, 191, 55)}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <body>
+        <h1>Forms</h1>
+        <form action="/contact.html">
+            <label for="user">Username</label>
+            <input type="text" id="user" />
+            <label>Email</label>
+            <input type="email"/>
+            <!--Specifying the type here makes sure the input taken is actually in a correct format.
+                 for example, email type needs an "@" in between-->
+            <select name="products" id="product">
+            <!-- create a drop down-->
+                <option value=""></option>
+                <option value="Computer">PC</option>
+                <!--The value in the value is the one submitted-->
+                <option value="Smartphone">Mobile</option>
+                <option value="POther devices">Others</option>  
+            </select>
+            <input type="radio" name="products" value="1">
+            <input type="radio" name="products" value="2">
+            <input type="radio" name="products" value="3">
+            <input type="radio" name="products" value="4">
+            <button type="submit">Submit</button>
+            <!--Doesn't actually submit the data anywhere because nothing's set up yet but it works-->
+        </form>
+        <h1>Unordered Lists</h1>
+        <ul><!---ul for unordered lists and ol for ordered lists-->
+            <li>Home</li>
+            <li>Contact</li>                        
+        </ul>
+        <h1>Ordered Lists</h1>
+        <ol><!---Can be nested as well -->
+            <li>Home</li>
+            <ol>
+                <li>Current Home</li>
+                <li>Permanent Home</li>
+            </ol>
+            <li>Contact</li>
+            <li>Projects</li>                        
+        </ol>        
+        <a href="/index.html" target="_blank">Link me to another page</a>
+    </body>
+</html>

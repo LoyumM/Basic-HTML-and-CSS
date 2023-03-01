@@ -1,0 +1,15 @@
+/*just like sql, we can select all by typing "*"*/
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box ;
+
+}
+
+div{
+    background-color: rgb(113, 142, 237);
+    color:azure;
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+}

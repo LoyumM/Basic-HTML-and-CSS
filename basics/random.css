@@ -1,0 +1,27 @@
+/* this has the highest priority*/
+#head{
+    color: red;
+}
+
+/*header has bigger priority so the header h1 remains blue*/
+.header{
+    color : blue;
+}
+
+h1{
+    color: coral !important;
+}
+
+/*works top to bottom, so the later ones is the one that'll be shown*/
+h1{
+    color: cornflowerblue;
+}
+
+h1.header{
+    color: darkmagenta;
+/*specify the class too to be more specific*/    
+}
+
+
+/*priority goes style in the "!important" suffix> html script>id>header>normally tagging the tags*/
+/*to check the priority just hover over the tag and look at the selector specificity*/
